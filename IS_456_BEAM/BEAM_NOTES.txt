@@ -1,0 +1,7 @@
+BEAM_NOTES
+ANCHORAGE:
+ Anchorage bonds are provided to avoid slipping of reinforcement from the concrete.The IS Code has specified details about this,Deformed bars when used requires no anchorage value as provided development length is sufficient,but in case of plain bars standard U-shaped hook anchorage value of 16d (d=diameter of the bar used) is provided.
+For reinforcement done in beams based upon the type of stirrups provided following are the anchorage values
+
+curtailment
+the action or fact of reducing or restricting something.
