@@ -1,0 +1,84 @@
+You have reached the maximum number of licenses. Please contact your license administrator.   
+PKID: 0D3RNMVA33T1V6FV 
+User ID : MUZAFAR
+MIDAS DESIGN+
+
+
+DGN_ACI318_11M    
+
+f:\Design_plus_Midas\design_plus_1\DesignPlus\include\DgnLib\DgnBaseLib\DgnBase_CodeStruct.h
+
+F:\Design_plus_Midas\design_plus_1\DesignPlus\src\DPLUS_Rcs\RcsBeamInputDlg.cpp
+
+
+shift + f9 quick watch variable
+
+(pTarget->*mmf.pfnCmd_v_u)(nID);   what dose it mean??
+shift + f11
+ctrl + shift + f11
+
+
+ctrl + k k  book marks
+ctrl + w + b to lookback book marks
+double clik change a name
+
+code snippet
+
+ctr a
+    k
+    f
+
+ctrl s productivity power tools
+
+ctrl tab
+
+ctrl shif tab
+ctr f6
+c    shift f6
+
+ctrl f4
+
+
+alt w l
+
+ctrl + ,
+
+shift alt enter
+
+ctrl + nn
+
+Shift + ctrl + End   Getselect till end
+
+.sln solution
+
+rt click and add new project at solutions
+
+add watch
+
+
+F:\Design_plus_Midas\design_plus_1\DesignPlus\src\DPLUS_Rcs\RCS_ReportWord.cpp
+
+F:\Design_plus_Midas\design_plus_1\DesignPlus\src\DPLUS_Rcs\RCS_QuickReportView.cpp
+
+F:\Design_plus_Midas\design_plus_1\DesignPlus\src\DPLUS_db\DB_CheckData.cpp
+
+return bDebug ? _T("GEN_DgnCalc_USD.dll") : _T("GEN_DgnCalc_US.dll");
+
+
+
+	// Explicit Linkage for DLL : Execute Beam Design. Same to "Call Function Beam Design".
+	typedef BOOL (PDGNCALC)(void*, void*, size_t, size_t, BOOL&);
+	PDGNCALC *pDgnCalc;
+	pDgnCalc = (PDGNCALC*)GetProcAddress(hDllCalc, "RC_Beam_Design");
+
+
+case ACI318_11M: return DGN_ACI318_11M;
+case ECP_203_2007: return DGN_ECP_203_2007;	
+
+
+
+F:\Design_plus_Midas\design_plus_1\DesignPlus\src\DPLUS_db\DB_DesignCodeTool.cpp
+
+
+
+m_iDgnCode   my  code book id : ie 181 ie 	ECP_203_2007
