@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{aeb7e3e7-3315-4212-a9d8-fc02fc046df0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c1ac63bf-e812-481e-98db-8cf00913a195}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{34bf06ec-87ea-4048-bcbf-e5e978d374af}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Calculation">
+      <UniqueIdentifier>{4c69f900-8259-4cb0-9789-cabffb11d619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GGeom">
+      <UniqueIdentifier>{792ac684-bd56-482b-8eb1-fa3ad6030898}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pmcv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PmcvDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcPmcv.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunc.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="MdgnPmTool.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="MdgnSectTool.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyMaker.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DPoint.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GClipPolybyVatti.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GGeometryEngine.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GLine2D.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GLine3D.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GMathUtil.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GPoint2D.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GPoint3D.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GRect.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="GVector.cpp">
+      <Filter>GGeom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Pmcv.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pmcv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PmcvDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcPmcv.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunc.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="MdgnPmTool.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="MdgnSectTool.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyMaker.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="StructDef.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DPoint.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GClipPolybyVatti.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GGeometryEngine.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GLine2D.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GLine3D.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GMathUtil.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GPoint2D.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GPoint3D.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GRect.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GRenderAll.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="GVector.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="LGLtype.h">
+      <Filter>GGeom</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Pmcv.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Pmcv.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
